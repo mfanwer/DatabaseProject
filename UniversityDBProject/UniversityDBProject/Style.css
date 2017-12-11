@@ -1,0 +1,87 @@
+﻿header {
+    color: darkblue;
+    text-align: left;
+    font-size: 20px;
+    font-family: Calibri;
+}
+
+#nav {
+    background-color: steelblue;
+    padding: 5px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+li a {
+    color: maroon;
+    font-size: 30px;
+    column-width: 5%;
+}
+
+li {
+    display: inline;
+    padding-left: 2px;
+    column-width: 20px;
+}
+
+a {
+    text-decoration: dotted;
+    margin-left: 20px;
+    text-align: justify;
+}
+
+#con {
+    border: double;
+    border-color: green;
+    height: 100%;
+    text-align: justify;
+}
+
+#footer {
+    color: darkblue;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.TextBox {
+    width: 200px;
+    height: 25px;
+    color: maroon;
+    margin-top: 10px;
+    display: compact;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.Button {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    width: 10%;
+    background-color: #4CAF50;
+    color: darkblue;
+    padding: 10px 10px;
+    margin: 8px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 45px;
+}
+
+#div {
+    margin: 10px 10px;
+    font-family: 'Times New Roman';
+    color: darkblue;
+}
+
+.DropDownList1 {
+    font-size: 13px;
+    color: maroon;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 6px;
+    position: relative;
+}

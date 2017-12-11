@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="UniversityDBProject.Master" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Youngstown State University</title>
+    <link href="Style.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <header id="header">
+   <h1>title</h1>
+        </header>
+    <div>
+        <nav id="nav">
+            <ul>
+                <li><a href="Welcome.aspx">Home</a></li>
+                
+                </ul>
+            </nav>
+        <div id="con">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </div>
+    <footer id="footer">
+       
+        </footer>
+</body>
+</html>
